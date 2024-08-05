@@ -1,0 +1,161 @@
+[02-Aug-2024 14:29:04 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'YOUR_MYSQL_USERNAME'@'localhost' (using password: YES) in /home/dafm5634/public_html/woalah/king-include/king-db.php on line 82
+[02-Aug-2024 14:29:04 Asia/Jakarta] PHP King-Media MySQL connect error 1045: Access denied for user 'YOUR_MYSQL_USERNAME'@'localhost' (using password: YES)
+[02-Aug-2024 14:30:58 Asia/Jakarta] PHP King-Media MySQL query error 1146: Table 'dafm5634_woalahnews.qa_options' doesn't exist - Query: (SELECT 'options' AS selectkey, title, content FROM qa_options) UNION ALL (SELECT 'time', 'db_time', UNIX_TIMESTAMP(NOW()))
+[02-Aug-2024 14:31:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php:611
+Stack trace:
+#0 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(1136): PHPMailer->mailPassthru()
+#1 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(1025): PHPMailer->mailSend()
+#2 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(930): PHPMailer->postSend()
+#3 /home/dafm5634/public_html/woalah/king-include/king-app/emails.php(163): PHPMailer->send()
+#4 /home/dafm5634/public_html/woalah/king-include/king-app/emails.php(98): qa_send_email()
+#5 /home/dafm5634/public_html/woalah/king-include/king-app/users-edit.php(191): qa_send_notification()
+#6 /home/dafm5634/public_html/woalah/king-include/king-install.php(81): qa_create_new_user()
+#7 /home/dafm5634/public_html/woalah/king-include/king-index.php(167): require('/home/dafm5634/...')
+#8 /home/dafm5634/public_html/woalah/index.php(22): require('/home/dafm5634/...')
+#9 {main}
+  thrown in /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php on line 611
+[02-Aug-2024 14:40:15 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 14:40:15 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 14:40:15 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:40:15 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:42:57 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 14:42:57 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 14:42:57 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:42:57 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:43:51 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[02-Aug-2024 14:43:51 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[02-Aug-2024 14:43:55 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[02-Aug-2024 14:43:55 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[02-Aug-2024 14:44:03 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[02-Aug-2024 14:44:03 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[02-Aug-2024 14:44:28 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[02-Aug-2024 14:44:28 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[02-Aug-2024 14:45:37 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 14:45:37 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 14:45:38 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:45:38 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:51:58 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 14:51:58 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 14:51:58 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:51:58 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:54:17 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 14:54:17 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 14:54:18 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 14:54:18 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 15:18:44 Asia/Jakarta] PHP Warning:  Undefined variable $thumb2 in /home/dafm5634/public_html/woalah/king-include/king-pages/video.php on line 182
+[02-Aug-2024 15:18:45 Asia/Jakarta] PHP Deprecated:  strtr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 500
+[02-Aug-2024 15:18:47 Asia/Jakarta] PHP Deprecated:  strtr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 500
+[02-Aug-2024 15:18:50 Asia/Jakarta] PHP Deprecated:  strtr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 500
+[02-Aug-2024 15:18:51 Asia/Jakarta] PHP Deprecated:  strtr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 500
+[02-Aug-2024 15:18:56 Asia/Jakarta] PHP Deprecated:  strtr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 500
+[02-Aug-2024 15:19:04 Asia/Jakarta] PHP Deprecated:  strtr(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 500
+[02-Aug-2024 15:19:06 Asia/Jakarta] PHP Warning:  Undefined variable $poll in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 314
+[02-Aug-2024 15:21:16 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 15:21:16 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 15:21:16 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-app/post-update.php on line 53
+[02-Aug-2024 15:21:16 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 15:21:16 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 15:41:21 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 15:41:21 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 15:41:21 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 15:41:21 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 15:44:27 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[02-Aug-2024 15:44:27 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[02-Aug-2024 15:44:32 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[02-Aug-2024 15:44:32 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[02-Aug-2024 15:44:33 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[02-Aug-2024 15:44:33 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[02-Aug-2024 15:50:58 Asia/Jakarta] PHP Deprecated:  mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 684
+[02-Aug-2024 15:50:58 Asia/Jakarta] PHP Deprecated:  mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 684
+[02-Aug-2024 15:50:58 Asia/Jakarta] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-util/string.php on line 662
+[02-Aug-2024 15:50:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php:611
+Stack trace:
+#0 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(1136): PHPMailer->mailPassthru()
+#1 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(1025): PHPMailer->mailSend()
+#2 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(930): PHPMailer->postSend()
+#3 /home/dafm5634/public_html/woalah/king-include/king-app/emails.php(163): PHPMailer->send()
+#4 /home/dafm5634/public_html/woalah/king-include/king-app/emails.php(98): qa_send_email()
+#5 /home/dafm5634/public_html/woalah/king-include/king-addons/king-event-notify.php(62): qa_send_notification()
+#6 /home/dafm5634/public_html/woalah/king-include/king-base.php(1718): qa_event_notify->process_event()
+#7 /home/dafm5634/public_html/woalah/king-include/king-app/post-update.php(679): qa_report_event()
+#8 /home/dafm5634/public_html/woalah/king-include/king-app/posts.php(232): qa_answer_set_status()
+#9 /home/dafm5634/public_html/woalah/king-include/king-app/posts.php(208): qa_post_set_status()
+#10 /home/dafm5634/public_html/woalah/king-include/king-app/admin.php(578): qa_post_set_hidden()
+#11 /home/dafm5634/public_html/woalah/king-include/king-ajax/click-admin.php(31): qa_admin_single_click()
+#12 /home/dafm5634/public_html/woalah/king-include/king-ajax.php(93): require('/home/dafm5634/...')
+#13 /home/dafm5634/public_html/woalah/king-include/king-index.php(30): require('/home/dafm5634/...')
+#14 /home/dafm5634/public_html/woalah/index.php(22): require('/home/dafm5634/...')
+#15 {main}
+  thrown in /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php on line 611
+[02-Aug-2024 17:40:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php:611
+Stack trace:
+#0 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(1136): PHPMailer->mailPassthru()
+#1 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(1025): PHPMailer->mailSend()
+#2 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(930): PHPMailer->postSend()
+#3 /home/dafm5634/public_html/woalah/king-include/king-app/emails.php(163): PHPMailer->send()
+#4 /home/dafm5634/public_html/woalah/king-include/king-app/emails.php(98): qa_send_email()
+#5 /home/dafm5634/public_html/woalah/king-include/king-app/users-edit.php(191): qa_send_notification()
+#6 /home/dafm5634/public_html/woalah/king-include/king-pages/register.php(113): qa_create_new_user()
+#7 /home/dafm5634/public_html/woalah/king-include/king-page.php(223): require('/home/dafm5634/...')
+#8 /home/dafm5634/public_html/woalah/king-include/king-page.php(993): qa_get_request_content()
+#9 /home/dafm5634/public_html/woalah/king-include/king-index.php(181): require('/home/dafm5634/...')
+#10 /home/dafm5634/public_html/woalah/index.php(22): require('/home/dafm5634/...')
+#11 {main}
+  thrown in /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php on line 611
+[02-Aug-2024 17:41:10 Asia/Jakarta] PHP Warning:  Undefined array key "IMAGE_CODE" in /home/dafm5634/public_html/woalah/king-plugin/king-captcha/AntiBotCaptcha.php on line 70
+[02-Aug-2024 17:42:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php:611
+Stack trace:
+#0 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(1136): PHPMailer->mailPassthru()
+#1 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(1025): PHPMailer->mailSend()
+#2 /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php(930): PHPMailer->postSend()
+#3 /home/dafm5634/public_html/woalah/king-include/king-app/emails.php(163): PHPMailer->send()
+#4 /home/dafm5634/public_html/woalah/king-include/king-app/emails.php(98): qa_send_email()
+#5 /home/dafm5634/public_html/woalah/king-include/king-app/users-edit.php(191): qa_send_notification()
+#6 /home/dafm5634/public_html/woalah/king-include/king-pages/register.php(113): qa_create_new_user()
+#7 /home/dafm5634/public_html/woalah/king-include/king-page.php(223): require('/home/dafm5634/...')
+#8 /home/dafm5634/public_html/woalah/king-include/king-page.php(993): qa_get_request_content()
+#9 /home/dafm5634/public_html/woalah/king-include/king-index.php(181): require('/home/dafm5634/...')
+#10 /home/dafm5634/public_html/woalah/index.php(22): require('/home/dafm5634/...')
+#11 {main}
+  thrown in /home/dafm5634/public_html/woalah/king-include/king-vendor/PHPMailer/class.phpmailer.php on line 611
+[02-Aug-2024 17:42:08 Asia/Jakarta] PHP Warning:  Undefined array key "IMAGE_CODE" in /home/dafm5634/public_html/woalah/king-plugin/king-captcha/AntiBotCaptcha.php on line 70
+[02-Aug-2024 20:28:35 Asia/Jakarta] PHP Warning:  Trying to access array offset on null in /home/dafm5634/public_html/woalah/king-include/king-ajax/multipledelete.php on line 22
+[02-Aug-2024 20:28:35 Asia/Jakarta] PHP Warning:  unlink(/home/dafm5634/public_html/woalah/king-include/): Is a directory in /home/dafm5634/public_html/woalah/king-include/king-ajax/multipledelete.php on line 25
+[02-Aug-2024 20:32:04 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-addons/king-event-notify.php on line 151
+[02-Aug-2024 20:42:15 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/dafm5634/public_html/woalah/king-include/king-feed.php:154
+Stack trace:
+#0 /home/dafm5634/public_html/woalah/king-include/king-index.php(179): require()
+#1 /home/dafm5634/public_html/woalah/index.php(22): require('/home/dafm5634/...')
+#2 {main}
+  thrown in /home/dafm5634/public_html/woalah/king-include/king-feed.php on line 154
+[02-Aug-2024 20:42:17 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/dafm5634/public_html/woalah/king-include/king-feed.php:154
+Stack trace:
+#0 /home/dafm5634/public_html/woalah/king-include/king-index.php(179): require()
+#1 /home/dafm5634/public_html/woalah/index.php(22): require('/home/dafm5634/...')
+#2 {main}
+  thrown in /home/dafm5634/public_html/woalah/king-include/king-feed.php on line 154
+[02-Aug-2024 20:43:12 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 20:43:12 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 20:43:12 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 20:43:12 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 20:46:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on null in /home/dafm5634/public_html/woalah/king-include/king-app/post-update.php on line 340
+[02-Aug-2024 20:57:04 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 106
+[02-Aug-2024 20:57:04 Asia/Jakarta] PHP Warning:  Undefined array key "silent" in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 172
+[02-Aug-2024 20:57:04 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #1 ($string1) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 20:57:04 Asia/Jakarta] PHP Deprecated:  strcmp(): Passing null to parameter #2 ($string2) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-pages/edit.php on line 178
+[02-Aug-2024 21:07:29 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/dafm5634/public_html/woalah/king-include/king-feed.php:154
+Stack trace:
+#0 /home/dafm5634/public_html/woalah/king-include/king-index.php(179): require()
+#1 /home/dafm5634/public_html/woalah/index.php(22): require('/home/dafm5634/...')
+#2 {main}
+  thrown in /home/dafm5634/public_html/woalah/king-include/king-feed.php on line 154
+[02-Aug-2024 23:17:03 Asia/Jakarta] PHP Warning:  file_get_contents(https://scontent-cgk1-2.cdninstagram.com/v/t51.29350-15/453598170_508696098378917_8029778457937776016_n.jpg?stp=cmp1_dst-jpg_s640x640&amp;amp;_nc_cat=103&amp;amp;ccb=1-7&amp;amp;_nc_sid=18de74&amp;amp;_nc_ohc=UiVU_r6HDnMQ7kNvgE-R1JG&amp;amp;_nc_ht=scontent-cgk1-2.cdninstagram.com&amp;amp;oh=00_AYDw9pIncM2wPxYv_dyXOsNn3_jW1ZWMplh2RdM8BVLQ8Q&amp;amp;oe=66B2E062): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/dafm5634/public_html/woalah/king-include/king-app-video.php on line 362
+[02-Aug-2024 23:17:03 Asia/Jakarta] PHP Notice:  getimagesize(): Error reading from /home/dafm5634/public_html/woalah/king-include/uploads/2024/08/1087982463.jpg! in /home/dafm5634/public_html/woalah/king-include/king-app-video.php on line 371
+[02-Aug-2024 23:17:03 Asia/Jakarta] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-addons/king-event-notify.php on line 151
+[03-Aug-2024 17:47:19 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[03-Aug-2024 17:47:19 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[05-Aug-2024 10:30:58 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[05-Aug-2024 10:30:58 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
+[05-Aug-2024 10:31:05 Asia/Jakarta] PHP Deprecated:  unserialize(): Passing null to parameter #1 ($data) of type string is deprecated in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 36
+[05-Aug-2024 10:31:05 Asia/Jakarta] PHP Warning:  Undefined variable $king_voters in /home/dafm5634/public_html/woalah/king-include/king-ajax/reaction.php on line 48
